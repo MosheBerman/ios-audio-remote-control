@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4692490217FB26AC002652EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490117FB26AC002652EF /* Foundation.framework */; };
+		4692490417FB26AC002652EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490317FB26AC002652EF /* CoreGraphics.framework */; };
+		4692490617FB26AC002652EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490517FB26AC002652EF /* UIKit.framework */; };
+		4692490C17FB26AC002652EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4692490A17FB26AC002652EF /* InfoPlist.strings */; };
+		4692490E17FB26AC002652EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692490D17FB26AC002652EF /* main.m */; };
+		4692491217FB26AC002652EF /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692491117FB26AC002652EF /* RCAppDelegate.m */; };
+		4692491517FB26AC002652EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4692491317FB26AC002652EF /* Main.storyboard */; };
+		4692491817FB26AC002652EF /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692491717FB26AC002652EF /* RCViewController.m */; };
+		4692491A17FB26AC002652EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4692491917FB26AC002652EF /* Images.xcassets */; };
+		4692492117FB26AC002652EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692492017FB26AC002652EF /* XCTest.framework */; };
+		4692492217FB26AC002652EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490117FB26AC002652EF /* Foundation.framework */; };
+		4692492317FB26AC002652EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490517FB26AC002652EF /* UIKit.framework */; };
+		4692492B17FB26AC002652EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4692492917FB26AC002652EF /* InfoPlist.strings */; };
+		4692492D17FB26AC002652EF /* RemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692492C17FB26AC002652EF /* RemoteControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4692492417FB26AC002652EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469248F617FB26AC002652EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469248FD17FB26AC002652EF;
+			remoteInfo = RemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469248FE17FB26AC002652EF /* RemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4692490117FB26AC002652EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4692490317FB26AC002652EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4692490517FB26AC002652EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4692490917FB26AC002652EF /* RemoteControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteControl-Info.plist"; sourceTree = "<group>"; };
+		4692490B17FB26AC002652EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4692490D17FB26AC002652EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4692490F17FB26AC002652EF /* RemoteControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteControl-Prefix.pch"; sourceTree = "<group>"; };
+		4692491017FB26AC002652EF /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		4692491117FB26AC002652EF /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
+		4692491417FB26AC002652EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4692491617FB26AC002652EF /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
+		4692491717FB26AC002652EF /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
+		4692491917FB26AC002652EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4692491F17FB26AC002652EF /* RemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4692492017FB26AC002652EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4692492817FB26AC002652EF /* RemoteControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteControlTests-Info.plist"; sourceTree = "<group>"; };
+		4692492A17FB26AC002652EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4692492C17FB26AC002652EF /* RemoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469248FB17FB26AC002652EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692490417FB26AC002652EF /* CoreGraphics.framework in Frameworks */,
+				4692490617FB26AC002652EF /* UIKit.framework in Frameworks */,
+				4692490217FB26AC002652EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4692491C17FB26AC002652EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692492117FB26AC002652EF /* XCTest.framework in Frameworks */,
+				4692492317FB26AC002652EF /* UIKit.framework in Frameworks */,
+				4692492217FB26AC002652EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469248F517FB26AC002652EF = {
+			isa = PBXGroup;
+			children = (
+				4692490717FB26AC002652EF /* RemoteControl */,
+				4692492617FB26AC002652EF /* RemoteControlTests */,
+				4692490017FB26AC002652EF /* Frameworks */,
+				469248FF17FB26AC002652EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469248FF17FB26AC002652EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469248FE17FB26AC002652EF /* RemoteControl.app */,
+				4692491F17FB26AC002652EF /* RemoteControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4692490017FB26AC002652EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4692490117FB26AC002652EF /* Foundation.framework */,
+				4692490317FB26AC002652EF /* CoreGraphics.framework */,
+				4692490517FB26AC002652EF /* UIKit.framework */,
+				4692492017FB26AC002652EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4692490717FB26AC002652EF /* RemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				4692491017FB26AC002652EF /* RCAppDelegate.h */,
+				4692491117FB26AC002652EF /* RCAppDelegate.m */,
+				4692491317FB26AC002652EF /* Main.storyboard */,
+				4692491617FB26AC002652EF /* RCViewController.h */,
+				4692491717FB26AC002652EF /* RCViewController.m */,
+				4692491917FB26AC002652EF /* Images.xcassets */,
+				4692490817FB26AC002652EF /* Supporting Files */,
+			);
+			path = RemoteControl;
+			sourceTree = "<group>";
+		};
+		4692490817FB26AC002652EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4692490917FB26AC002652EF /* RemoteControl-Info.plist */,
+				4692490A17FB26AC002652EF /* InfoPlist.strings */,
+				4692490D17FB26AC002652EF /* main.m */,
+				4692490F17FB26AC002652EF /* RemoteControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4692492617FB26AC002652EF /* RemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				4692492C17FB26AC002652EF /* RemoteControlTests.m */,
+				4692492717FB26AC002652EF /* Supporting Files */,
+			);
+			path = RemoteControlTests;
+			sourceTree = "<group>";
+		};
+		4692492717FB26AC002652EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4692492817FB26AC002652EF /* RemoteControlTests-Info.plist */,
+				4692492917FB26AC002652EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469248FD17FB26AC002652EF /* RemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4692493017FB26AC002652EF /* Build configuration list for PBXNativeTarget "RemoteControl" */;
+			buildPhases = (
+				469248FA17FB26AC002652EF /* Sources */,
+				469248FB17FB26AC002652EF /* Frameworks */,
+				469248FC17FB26AC002652EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteControl;
+			productName = RemoteControl;
+			productReference = 469248FE17FB26AC002652EF /* RemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4692491E17FB26AC002652EF /* RemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4692493317FB26AC002652EF /* Build configuration list for PBXNativeTarget "RemoteControlTests" */;
+			buildPhases = (
+				4692491B17FB26AC002652EF /* Sources */,
+				4692491C17FB26AC002652EF /* Frameworks */,
+				4692491D17FB26AC002652EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4692492517FB26AC002652EF /* PBXTargetDependency */,
+			);
+			name = RemoteControlTests;
+			productName = RemoteControlTests;
+			productReference = 4692491F17FB26AC002652EF /* RemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469248F617FB26AC002652EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Moshe Berman";
+				TargetAttributes = {
+					4692491E17FB26AC002652EF = {
+						TestTargetID = 469248FD17FB26AC002652EF;
+					};
+				};
+			};
+			buildConfigurationList = 469248F917FB26AC002652EF /* Build configuration list for PBXProject "RemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469248F517FB26AC002652EF;
+			productRefGroup = 469248FF17FB26AC002652EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469248FD17FB26AC002652EF /* RemoteControl */,
+				4692491E17FB26AC002652EF /* RemoteControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469248FC17FB26AC002652EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692491A17FB26AC002652EF /* Images.xcassets in Resources */,
+				4692490C17FB26AC002652EF /* InfoPlist.strings in Resources */,
+				4692491517FB26AC002652EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4692491D17FB26AC002652EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692492B17FB26AC002652EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469248FA17FB26AC002652EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692490E17FB26AC002652EF /* main.m in Sources */,
+				4692491217FB26AC002652EF /* RCAppDelegate.m in Sources */,
+				4692491817FB26AC002652EF /* RCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4692491B17FB26AC002652EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4692492D17FB26AC002652EF /* RemoteControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4692492517FB26AC002652EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469248FD17FB26AC002652EF /* RemoteControl */;
+			targetProxy = 4692492417FB26AC002652EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4692490A17FB26AC002652EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4692490B17FB26AC002652EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4692491317FB26AC002652EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4692491417FB26AC002652EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4692492917FB26AC002652EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4692492A17FB26AC002652EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4692492E17FB26AC002652EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4692492F17FB26AC002652EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4692493117FB26AC002652EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteControl/RemoteControl-Prefix.pch";
+				INFOPLIST_FILE = "RemoteControl/RemoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4692493217FB26AC002652EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteControl/RemoteControl-Prefix.pch";
+				INFOPLIST_FILE = "RemoteControl/RemoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4692493417FB26AC002652EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteControl.app/RemoteControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteControl/RemoteControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RemoteControlTests/RemoteControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4692493517FB26AC002652EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteControl.app/RemoteControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteControl/RemoteControl-Prefix.pch";
+				INFOPLIST_FILE = "RemoteControlTests/RemoteControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469248F917FB26AC002652EF /* Build configuration list for PBXProject "RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4692492E17FB26AC002652EF /* Debug */,
+				4692492F17FB26AC002652EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4692493017FB26AC002652EF /* Build configuration list for PBXNativeTarget "RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4692493117FB26AC002652EF /* Debug */,
+				4692493217FB26AC002652EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4692493317FB26AC002652EF /* Build configuration list for PBXNativeTarget "RemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4692493417FB26AC002652EF /* Debug */,
+				4692493517FB26AC002652EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469248F617FB26AC002652EF /* Project object */;
+}
