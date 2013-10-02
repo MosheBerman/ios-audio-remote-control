@@ -21,6 +21,8 @@
 		4692492317FB26AC002652EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692490517FB26AC002652EF /* UIKit.framework */; };
 		4692492B17FB26AC002652EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4692492917FB26AC002652EF /* InfoPlist.strings */; };
 		4692492D17FB26AC002652EF /* RemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692492C17FB26AC002652EF /* RemoteControlTests.m */; };
+		4692493817FB26DA002652EF /* RCApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692493717FB26DA002652EF /* RCApplication.m */; };
+		4692493C17FB2C19002652EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4692493B17FB2C19002652EF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		4692492817FB26AC002652EF /* RemoteControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteControlTests-Info.plist"; sourceTree = "<group>"; };
 		4692492A17FB26AC002652EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4692492C17FB26AC002652EF /* RemoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControlTests.m; sourceTree = "<group>"; };
+		4692493617FB26DA002652EF /* RCApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCApplication.h; sourceTree = "<group>"; };
+		4692493717FB26DA002652EF /* RCApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCApplication.m; sourceTree = "<group>"; };
+		4692493A17FB274D002652EF /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notifications.h; path = Headers/Notifications.h; sourceTree = "<group>"; };
+		4692493B17FB2C19002652EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4692493C17FB2C19002652EF /* AVFoundation.framework in Frameworks */,
 				4692490417FB26AC002652EF /* CoreGraphics.framework in Frameworks */,
 				4692490617FB26AC002652EF /* UIKit.framework in Frameworks */,
 				4692490217FB26AC002652EF /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		4692490017FB26AC002652EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4692493B17FB2C19002652EF /* AVFoundation.framework */,
 				4692490117FB26AC002652EF /* Foundation.framework */,
 				4692490317FB26AC002652EF /* CoreGraphics.framework */,
 				4692490517FB26AC002652EF /* UIKit.framework */,
@@ -114,6 +122,7 @@
 			children = (
 				4692491017FB26AC002652EF /* RCAppDelegate.h */,
 				4692491117FB26AC002652EF /* RCAppDelegate.m */,
+				4692493917FB2735002652EF /* Custom Application Subclass */,
 				4692491317FB26AC002652EF /* Main.storyboard */,
 				4692491617FB26AC002652EF /* RCViewController.h */,
 				4692491717FB26AC002652EF /* RCViewController.m */,
@@ -150,6 +159,16 @@
 				4692492917FB26AC002652EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4692493917FB2735002652EF /* Custom Application Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				4692493617FB26DA002652EF /* RCApplication.h */,
+				4692493717FB26DA002652EF /* RCApplication.m */,
+				4692493A17FB274D002652EF /* Notifications.h */,
+			);
+			name = "Custom Application Subclass";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +272,7 @@
 				4692490E17FB26AC002652EF /* main.m in Sources */,
 				4692491217FB26AC002652EF /* RCAppDelegate.m in Sources */,
 				4692491817FB26AC002652EF /* RCViewController.m in Sources */,
+				4692493817FB26DA002652EF /* RCApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

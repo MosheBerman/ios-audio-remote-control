@@ -8,11 +8,23 @@
 
 #import "RCAppDelegate.h"
 
+#import <AVFoundation/AVFoundation.h>
+
 @implementation RCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
+    if(![[AVAudioSession sharedInstance] setActive:YES error:nil])
+    {
+        NSLog(@"Failed to set up a session.");
+    }
+    
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    
     return YES;
 }
 							
