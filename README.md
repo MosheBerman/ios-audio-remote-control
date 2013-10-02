@@ -19,3 +19,7 @@ In my case `RCApplication` is the name of my custom class. Use the name of your 
 4. Play something. Until you do, the remote controls will ignore your app. I just took an `AVPlayer` and gave it the URL of a streaming site that I expect to be up. If you find that it fails, put your own URL in there and play with it to your heart's content.
 
 I've seen a lot of confusion on the internet about where to set up the `removeControlEventRecievedWithEvent:` method and various approaches to the responder chain. I know this method works on iOS 6 and iOS 7. Other methods have not. Don't waste your time handling remote control events in the app delegate (where they used to work) or in a view controller which may go away during the lifecycle of your app.
+
+This example has a little bit more code in there to log out remote events, but it's not all that complicated. I just define and pass around some string constants. 
+
+Hope this helps someone out there!
