@@ -11,11 +11,11 @@ Here's a quick rundown of what has to happen:
 
          return UIApplicationMain(argc, argv, nil, NSStringFromClass([RCAppDel`egate class]));
 
-to look like this:
+   to look like this:
 
         return UIApplicationMain(argc, argv, NSStringFromClass([RCApplication class]), NSStringFromClass([RCAppDelegate class]));
 
-In my case `RCApplication` is the name of my custom class. Use the name of your subclass instead. Don't forget to `#import` the appropriate header.
+   In my case `RCApplication` is the name of my custom class. Use the name of your subclass instead. Don't forget to `#import` the appropriate header.
 
 3. OPTIONAL: You should configure an audio session. It's not required, but if you don't, audio won't play if the phone is muted.  I do this in the demo app's delegate, but do so where appropriate.
 
