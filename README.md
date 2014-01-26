@@ -11,7 +11,7 @@ Here's a quick rundown of what has to happen:
 
 2. You need to tell iOS to use your custom class to run the app, instead of the default `UIApplication`. To do so, open main.m and change this:
 
-         return UIApplicationMain(argc, argv, nil, NSStringFromClass([RCAppDel`egate class]));
+         return UIApplicationMain(argc, argv, nil, NSStringFromClass([RCAppDelegate class]));
 
    to look like this:
 
