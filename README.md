@@ -5,6 +5,7 @@ This repo demonstrates how to control the software based audio remote control in
 
 ---
 **NOTE:** As of iOS 7.1, you should be using [MPRemoteCommandCenter](https://developer.apple.com/library/ios/documentation/MediaPlayer/Reference/MPRemoteCommandCenter_Ref/) instead of this. I'm keeping it around for historical reference, but the following is not guaranteed to work on recent iOS versions. 
+
 --- 
 
 
