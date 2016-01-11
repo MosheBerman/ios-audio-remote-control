@@ -3,6 +3,11 @@ ios-audio-remote-control
 
 This repo demonstrates how to control the software based audio remote control in iOS.
 
+---
+**NOTE:** As of iOS 7.1, you should be using [MPRemoteCommandCenter](https://developer.apple.com/library/ios/documentation/MediaPlayer/Reference/MPRemoteCommandCenter_Ref/) instead of this. I'm keeping it around for historical reference, but the following is not guaranteed to work on recent iOS versions. 
+--- 
+
+
 I've seen a lot of confusion on the internet about where to set up the `removeControlEventRecievedWithEvent:` method and various approaches to the responder chain. I know this method works on iOS 6 and iOS 7. Other methods have not. Don't waste your time handling remote control events in the app delegate (where they used to work) or in a view controller which may go away during the lifecycle of your app.
 
 Here's a quick rundown of what has to happen:
